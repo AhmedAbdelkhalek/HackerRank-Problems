@@ -12,6 +12,6 @@ num1 = int(input())
 # input the second number in a new line, convert to int
 num2 = int(input())
 
-# Call the function and print the return.
+# Call the function and print the returning number.
 res = solveMeFirst(num1, num2)
 print(res)

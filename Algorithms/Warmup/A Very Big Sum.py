@@ -1,9 +1,11 @@
 #!/bin/python3
 # Easy
-# https://www.hackerrank.com/challenges/time-conversion/problem
+# https://www.hackerrank.com/challenges/a-very-big-sum/problem
 
-time = input().strip()
-h, m, s = map(int, time[:-2].split(':'))
-p = time[-2:]
-h = h % 12 + (p.upper() == 'PM') * 12
-print(('%02d:%02d:%02d') % (h, m, s))
+# Input a number (not useful, but required to run on hackerrank)
+n = int(input().strip())
+# Convert space delimited numbers to list of ints
+ar = list(map(int, input().strip().split(' ')))
+
+# Print the sum of the list
+print(sum(ar))
