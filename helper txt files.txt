@@ -1,0 +1,14 @@
+# Input the first number, convert to int
+num1 = int(input())
+
+# Convert space delimited numbers to list of ints
+ar = list(map(int, input().strip().split(' ')))
+
+# Input a number (not useful, but required to run on hackerrank)
+n = int(input().strip())
+# Convert space delimited numbers to list of ints
+ar = list(map(int, input().strip().split(' ')))
+
+#!/bin/python3
+# Easy
+# 
